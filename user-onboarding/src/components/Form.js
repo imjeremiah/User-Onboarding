@@ -38,7 +38,7 @@ export default function Form(props) {
           <label>
           Agree to Terms<input type="checkbox" name="terms" onChange={change}/> 
           </label>
-          <button disabled={disabled}>Submit</button>
+          <button id='button' disabled={disabled}>Submit</button>
         </form>
       </div>
     );
